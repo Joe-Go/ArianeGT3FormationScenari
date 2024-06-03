@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:ik="sc.soft:idkey">
+	<ik:criterion>
+		<ik:keyM>
+			<sp:title>Licence</sp:title>
+			<sp:multiselect>true</sp:multiselect>
+			<sp:shortDesc><ik:sTxt>
+					<sc:para xml:space="preserve">Types d'usage possible selon les droits appliqués</sc:para>
+				</ik:sTxt></sp:shortDesc>
+		</ik:keyM>
+		<sp:criterion sc:refUri="/entrées/licence/reutilisable.value"/>
+		<sp:criterion sc:refUri="/entrées/licence/modifiable.value"/>
+		<sp:criterion sc:refUri="/entrées/licence/NonReutilisable.value"/>
+		<sp:criterion sc:refUri="/entrées/licence/NonModifiable.value"/>
+		<sp:criterion sc:refUri="/entrées/licence/inconnueLicence.value"/>
+	</ik:criterion>
+</sc:item>

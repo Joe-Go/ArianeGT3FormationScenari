@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:ik="sc.soft:idkey">
+	<ik:criterion>
+		<ik:keyM>
+			<sp:title>Type d'opération</sp:title>
+			<sp:multiselect>true</sp:multiselect>
+			<sp:shortDesc><ik:sTxt>
+					<sc:para xml:space="preserve">Quelles traitements de donnée sont-ils possibles ?</sc:para>
+				</ik:sTxt></sp:shortDesc>
+		</ik:keyM>
+		<sp:criterion sc:refUri="/entrées/TypeOperation/conversion.value"/>
+		<sp:criterion sc:refUri="/entrées/TypeOperation/metadonnees.value"/>
+		<sp:criterion sc:refUri="/entrées/TypeOperation/linguistique.value"/>
+		<sp:criterion sc:refUri="/entrées/TypeOperation/verification.value"/>
+		<sp:criterion sc:refUri="/entrées/TypeOperation/editionCritique.value"/>
+		<sp:criterion sc:refUri="/entrées/TypeOperation/catalogage.value"/>
+		<sp:criterion sc:refUri="/entrées/TypeOperation/balisage.value"/>
+	</ik:criterion>
+</sc:item>

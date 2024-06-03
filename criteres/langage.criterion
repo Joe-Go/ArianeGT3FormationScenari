@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:ik="sc.soft:idkey">
+	<ik:criterion>
+		<ik:keyM>
+			<sp:title>Langage informatique</sp:title>
+			<sp:multiselect>false</sp:multiselect>
+			<sp:shortDesc><ik:sTxt>
+					<sc:para xml:space="preserve">Compétences attendues et/langages informatiques utilisés</sc:para>
+				</ik:sTxt></sp:shortDesc>
+		</ik:keyM>
+		<sp:criterion sc:refUri="/entrées/langage/XSLT.value"/>
+		<sp:criterion sc:refUri="/entrées/langage/PHP.value"/>
+		<sp:criterion sc:refUri="/entrées/langage/navigateurWeb.value"/>
+	</ik:criterion>
+</sc:item>

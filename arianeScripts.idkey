@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:ik="sc.soft:idkey">
+	<ik:idkey>
+		<ik:idkeyM>
+			<sp:title>Ariane Scripts</sp:title>
+			<sp:illus sc:refUri="/logoAriane.jpg"/>
+			<sp:pwa><ik:pwaM>
+					<sp:description>Recensement de scripts pouvant servir aux membres du consortium ARIANE, et au-delà</sp:description>
+				</ik:pwaM></sp:pwa>
+		</ik:idkeyM>
+		<sp:taxoNode sc:refUri="/taxons/tei2iiif.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/remora.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/collationSommaire.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/odette.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/tei2html.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/teiCAT.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/fgDrupalToWordpress.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/tainacan.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/teiViewer.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/odd2manual.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/QTEI.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/Heimdall.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/TEI-garage.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/bibtextidy.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/NakalaQuartoView.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/circeui.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/IIIF-AV-player.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/alto2text.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/DivaJS.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/EVT.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/Lexico.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/tei2text.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/Twine.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/webMedia.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/V-Machine.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/teipublisher.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/max.taxon"/>
+		<sp:taxoNode sc:refUri="/taxons/RDF2TEI.taxon"/>
+		<sp:exclusiveCrits><ik:critList>
+				<sp:crit sc:refUri="/criteres/ui.criterion"/>
+				<sp:crit sc:refUri="/criteres/operation.criterion"/>
+				<sp:crit sc:refUri="/criteres/format.criterion"/>
+				<sp:crit sc:refUri="/criteres/langage.criterion"/>
+				<sp:crit sc:refUri="/criteres/accompagnement.criterion"/>
+				<sp:crit sc:refUri="/criteres/licence.criterion"/>
+			</ik:critList></sp:exclusiveCrits>
+		<sp:secondaryCrits><ik:critList/></sp:secondaryCrits>
+	</ik:idkey>
+</sc:item>

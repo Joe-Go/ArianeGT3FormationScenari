@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:ik="sc.soft:idkey">
+	<ik:taxon>
+		<ik:taxonM>
+			<sp:commonName>bibtex-tidy</sp:commonName>
+		</ik:taxonM>
+		<sp:criterion sc:refUri="/entrées/TypeOperation/conversion.value"/>
+		<sp:criterion sc:refUri="/entrées/TypeOperation/verification.value"/>
+		<sp:criterion sc:refUri="/entrées/langage/TeX.value"/>
+		<sp:criterion sc:refUri="/entrées/format/bibTeX.value"/>
+		<sp:criterion sc:refUri="/entrées/licence/reutilisable.value"/>
+		<sp:criterion sc:refUri="/entrées/licence/modifiable.value"/>
+		<sp:criterion sc:refUri="/entrées/langage/js.value"/>
+		<sp:criterion sc:refUri="/entrées/interfaceGraphique/lesDeux.value"/>
+		<sp:content><ik:fragment>
+				<sp:info><ik:block>
+						<ik:blockM>
+							<sp:title>Description</sp:title>
+						</ik:blockM>
+						<sp:co><ik:flow>
+								<sp:txt><ik:txt>
+										<sc:para xml:space="preserve">Application en ligne de formatage et nettoyage de fichiers bibtex (bibliographie LaTeX).</sc:para>
+									</ik:txt></sp:txt>
+							</ik:flow></sp:co>
+					</ik:block></sp:info>
+				<sp:emphasis><ik:block>
+						<ik:blockM>
+							<sp:title>URL (interface graphique)</sp:title>
+						</ik:blockM>
+						<sp:co><ik:flow>
+								<sp:txt><ik:txt>
+										<sc:para xml:space="preserve"><sc:phrase role="url"><ik:urlM xml:space="default">
+													<sp:url>https://flamingtempura.github.io/bibtex-tidy/index.html</sp:url>
+												</ik:urlM>https://flamingtempura.github.io/bibtex-tidy/index.html</sc:phrase></sc:para>
+									</ik:txt></sp:txt>
+							</ik:flow></sp:co>
+					</ik:block></sp:emphasis>
+				<sp:emphasis><ik:block>
+						<ik:blockM>
+							<sp:title>URL (code source)</sp:title>
+						</ik:blockM>
+						<sp:co><ik:flow>
+								<sp:txt><ik:txt>
+										<sc:para xml:space="preserve"><sc:phrase role="url"><ik:urlM xml:space="default">
+													<sp:url>https://github.com/FlamingTempura/bibtex-tidy</sp:url>
+												</ik:urlM>https://github.com/FlamingTempura/bibtex-tidy</sc:phrase></sc:para>
+									</ik:txt></sp:txt>
+							</ik:flow></sp:co>
+					</ik:block></sp:emphasis>
+			</ik:fragment></sp:content>
+	</ik:taxon>
+</sc:item>
