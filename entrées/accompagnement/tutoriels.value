@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:ik="sc.soft:idkey">
-	<ik:critVal>
-		<ik:critValM>
-			<sp:value>Tutoriels</sp:value>
-		</ik:critValM>
-		<sp:desc><ik:fragment/></sp:desc>
-	</ik:critVal>
-</sc:item>
